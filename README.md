@@ -1,4 +1,4 @@
-#ME Bank Coding Challenge
+# ME Bank Coding Challenge
 Implement a system that analyses financial transaction records
 
 The system will be initialised with an input file in CSV format containing a list of
@@ -13,11 +13,11 @@ Another requirement is that, if a transaction has a reversing transaction, this
 transaction should be omitted from the calculation, even if the reversing transaction is
 outside the given time frame.
 
-#Pre-requisite
+# Pre-requisite
 1. Java 8
 2. Maven
 
-#Assumptions
+# Assumptions
 It is assume that:
 1. Input file and records are all in a valid format
 2. Transactions are recorded in order
@@ -25,7 +25,7 @@ It is assume that:
 4. Input `To` date is same or after the `From` date.
 5. Input date is in a valid format i.e. `dd/MM/yyyy HH:mm:ss` `(20/10/2018 18:00:00)`
 
-#Project Setup and Running
+# Project Setup and Running
 1. git clone `git@github.com:mapaclaon/mebank.git`
 2. From your IDE, import existing maven project
 3. To build the application
